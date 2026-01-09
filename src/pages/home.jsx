@@ -21,7 +21,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
           >
             <h1 className={styles.heroTitle}>
-              Analista Junior <br />
+              Estudiante de desarrollo de sistemas de Informacion <br />
               <span className={styles.heroSubtitle}>Datos, Producción y Web</span>
             </h1>
             <p className={styles.heroText}>

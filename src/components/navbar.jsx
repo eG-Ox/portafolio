@@ -12,7 +12,7 @@ export default function Navbar() {
     >
       <div className={`container ${styles.container}`}>
         <a href="#" className={`logo ${styles.logo}`}>
-          Marco Miñano
+          Marco Miñano Huaranga
         </a>
 
         <ul className={styles.navList}>
@@ -30,7 +30,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="/cv.pdf"
+              href="/portafolio/cv.pdf"
               target="_blank"
               className={`btn btn-primary ${styles.cvBtn}`}
             >
