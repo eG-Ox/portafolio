@@ -1,0 +1,43 @@
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--nav-height);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navList {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navLink {
+    font-weight: 500;
+}
+
+.githubLink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cvBtn {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.9rem !important;
+}

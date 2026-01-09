@@ -1,0 +1,87 @@
+.heroSection {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.heroTitle {
+    max-width: 800px;
+}
+
+.heroSubtitle {
+    font-size: 0.6em;
+    color: var(--text-primary);
+}
+
+.heroText {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.heroButtons {
+    display: flex;
+    gap: 1rem;
+}
+
+.skillsSection {
+    background: var(--bg-secondary);
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.skillCard {
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.skillIcon {
+    color: var(--accent-primary);
+    margin-bottom: 1rem;
+}
+
+.skillTitle {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.skillDesc {
+    font-size: 0.95rem;
+}
+
+.featuredCard {
+    padding: 3rem;
+    border-radius: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.featuredContent {
+    position: relative;
+    z-index: 1;
+}
+
+.featuredTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent-primary);
+}
+
+.featuredDesc {
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.decorativeCircle {
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.1) 0%, rgba(0, 0, 0, 0) 70%);
+    border-radius: 50%;
+}
